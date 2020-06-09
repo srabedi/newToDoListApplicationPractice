@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		EC2A04B8248EB61300DBB604 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2A04B7248EB61300DBB604 /* ToDoTableViewController.swift */; };
 		EC2A04BA248EB67400DBB604 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2A04B9248EB67400DBB604 /* ToDo.swift */; };
+		EC2A04BC248FCB8900DBB604 /* AddToDoViewControlleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2A04BB248FCB8900DBB604 /* AddToDoViewControlleViewController.swift */; };
+		EC2A0527249051E800DBB604 /* CompleteToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2A0526249051E800DBB604 /* CompleteToDoViewController.swift */; };
 		EC53910B248EADA60042D52A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC53910A248EADA60042D52A /* AppDelegate.swift */; };
 		EC53910D248EADA60042D52A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC53910C248EADA60042D52A /* SceneDelegate.swift */; };
 		EC539112248EADA60042D52A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC539110248EADA60042D52A /* Main.storyboard */; };
@@ -20,6 +22,8 @@
 /* Begin PBXFileReference section */
 		EC2A04B7248EB61300DBB604 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 		EC2A04B9248EB67400DBB604 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		EC2A04BB248FCB8900DBB604 /* AddToDoViewControlleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewControlleViewController.swift; sourceTree = "<group>"; };
+		EC2A0526249051E800DBB604 /* CompleteToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteToDoViewController.swift; sourceTree = "<group>"; };
 		EC539107248EADA60042D52A /* newToDoListApplicationPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = newToDoListApplicationPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC53910A248EADA60042D52A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC53910C248EADA60042D52A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				EC53910A248EADA60042D52A /* AppDelegate.swift */,
 				EC53910C248EADA60042D52A /* SceneDelegate.swift */,
 				EC539110248EADA60042D52A /* Main.storyboard */,
+				EC2A0526249051E800DBB604 /* CompleteToDoViewController.swift */,
+				EC2A04BB248FCB8900DBB604 /* AddToDoViewControlleViewController.swift */,
 				EC2A04B7248EB61300DBB604 /* ToDoTableViewController.swift */,
 				EC2A04B9248EB67400DBB604 /* ToDo.swift */,
 				EC539116248EADA80042D52A /* Assets.xcassets */,
@@ -147,7 +153,9 @@
 				EC53910B248EADA60042D52A /* AppDelegate.swift in Sources */,
 				EC2A04BA248EB67400DBB604 /* ToDo.swift in Sources */,
 				EC539115248EADA60042D52A /* newToDoListApplicationPractice.xcdatamodeld in Sources */,
+				EC2A0527249051E800DBB604 /* CompleteToDoViewController.swift in Sources */,
 				EC2A04B8248EB61300DBB604 /* ToDoTableViewController.swift in Sources */,
+				EC2A04BC248FCB8900DBB604 /* AddToDoViewControlleViewController.swift in Sources */,
 				EC53910D248EADA60042D52A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
