@@ -9,8 +9,8 @@
 import UIKit
 
 class ToDoTableTableViewController: UITableViewController {
-
-    var toDos : [ToDo] = []
+    //changed ToDo to ToDoCD
+    var toDos : [ToDoCD] = []
     
     func createToDos() -> [ToDo] {
 
@@ -35,7 +35,18 @@ class ToDoTableTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        toDos = createToDos()
+       //toDos = createToDos()
+       func getToDos() {
+          if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+
+            if let coreDataToDos = try? context.fetch(ToDoCD.fetchRequest()) as? [ToDoCD] {
+                if let theToDos = coreDataToDos {
+                    toDos = theToDos
+                    tableView.reloadData()
+                }
+            }
+          }
+        }
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
